@@ -34,7 +34,8 @@ main>* {
 }
 
 .highlight {
-  background-color:hsl(214, 90%, 47%);
+  background-color:hsl(214, 90%, 37%);
+  opacity: 0.5;
 }
 
 .full-width {
