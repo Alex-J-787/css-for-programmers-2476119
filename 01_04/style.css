@@ -1,7 +1,10 @@
 :root {
   --content-width: 50ch;
 }
-
+.highlight {
+  background-color: hsl(214, 90%, 37%);
+  opacity: 0.5;
+}
 body {
   margin: 0;
   font-family: serif;
@@ -31,11 +34,6 @@ img {
 main>* {
   padding: 2rem;
   grid-column: 2;
-}
-
-.highlight {
-  background-color:hsl(214, 90%, 37%);
-  opacity: 0.5;
 }
 
 .full-width {
